@@ -266,7 +266,6 @@ public class UserInterface {
 
 	public UserInterface() {
 		UI.initialise();
-		//UI.addButton("Background", this::background);
 		UI.addButton("New Game", this::newGame);
 		UI.addButton("Up", this::up);
 		UI.addButton("Down", this::down);
